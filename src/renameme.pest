@@ -1,0 +1,5 @@
+WHITESPACE = _{ " " }
+
+symbol = { (ASCII_ALPHA | ASCII_DIGIT)+ }
+
+list = { "(" ~ (symbol | list)+ ~ ")" }
