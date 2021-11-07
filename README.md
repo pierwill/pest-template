@@ -1,5 +1,3 @@
-[![Rust](https://github.com/pierwill/pest-template/actions/workflows/rust.yml/badge.svg)](https://github.com/pierwill/pest-template/actions/workflows/rust.yml)
-
 # pest-template
 
 To make a new parser project using [`pest`](https://pest.rs):
