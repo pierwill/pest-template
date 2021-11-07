@@ -17,10 +17,6 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Build
-      run: |
-        cargo install cargo-generate \
-        && cargo generate https://github.com/pierwill/pest-template --name test \
-        && cd test/ \
-        && cargo build --verbose
+      run: cargo build --verbose
     - name: Run tests
       run: cargo test --verbose
